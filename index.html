@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of Naisham Nasser — technology, fitness, boxing, Arduino projects, discipline and personal growth.">
+  <meta name="author" content="Naisham Nasser">
+  <meta name="theme-color" content="#090b10">
+  <title>Naisham Nasser | Personal Profile</title>
+  <style>
+    :root { color-scheme: dark; --bg:#090b10; --panel:#121722; --muted:#aab3c2; --accent:#e5b45d; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif; background:radial-gradient(circle at 80% 5%,#17343b 0,transparent 34%),var(--bg); color:#f5f6f8; line-height:1.65; }
+    .wrap { width:min(960px,92%); margin:auto; }
+    header { padding:72px 0 54px; display:grid; grid-template-columns: minmax(0,1.25fr) minmax(220px,.75fr); gap:42px; align-items:center; }
+    .eyebrow { color:var(--accent); letter-spacing:.18em; text-transform:uppercase; font-size:.76rem; font-weight:700; }
+    h1 { font-size:clamp(2.6rem,7vw,5rem); line-height:1.02; margin:14px 0; letter-spacing:-.05em; }
+    .lead { color:#d1d7e0; font-size:1.12rem; max-width:620px; }
+    .photo { width:100%; aspect-ratio:1; object-fit:cover; border-radius:28px; border:1px solid #34404d; box-shadow:0 24px 70px #0009; }
+    section { padding:28px 0; }
+    h2 { font-size:1.45rem; margin:0 0 14px; }
+    .panel { background:linear-gradient(145deg,#151c28,#10141d); border:1px solid #273140; border-radius:20px; padding:26px; }
+    .tags { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+    .tag { border:1px solid #394454; color:#e4e9f0; border-radius:999px; padding:7px 13px; font-size:.9rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { background:#111722; border:1px solid #273140; border-radius:16px; padding:20px; }
+    .card p, .muted { color:var(--muted); margin-bottom:0; }
+    footer { padding:36px 0 48px; color:#8e99a9; font-size:.9rem; border-top:1px solid #26303d; margin-top:30px; }
+    a { color:var(--accent); text-decoration:none; }
+    @media(max-width:680px) { header { grid-template-columns:1fr; padding-top:42px; gap:25px; } .photo { max-width:330px; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <div class="eyebrow">Personal Profile</div>
+        <h1>Naisham<br>Nasser</h1>
+        <p class="lead">Technology enthusiast, fitness lover and lifelong learner. Interested in Python programming, boxing, Arduino projects, discipline and personal growth.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">Fitness</span><span class="tag">Boxing</span>
+          <span class="tag">Arduino</span><span class="tag">Personal Growth</span>
+        </div>
+      </div>
+      <img class="photo" src="assets/profile-photo.png" alt="Portrait of Naisham Nasser">
+    </header>
+
+    <section>
+      <div class="panel">
+        <h2>About Me</h2>
+        <p class="muted">I'm Naisham Nasser. I enjoy learning about technology and building practical projects. I have an interest in Python programming and Arduino-based creations, and I value fitness, boxing, discipline and steady self-improvement.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Interests</h2>
+      <div class="grid">
+        <article class="card"><h3>Technology & Python</h3><p>Exploring programming, problem-solving and new technology.</p></article>
+        <article class="card"><h3>Arduino Projects</h3><p>Building and experimenting with hands-on electronics projects.</p></article>
+        <article class="card"><h3>Fitness & Boxing</h3><p>Focused on training, strength, skill and an active lifestyle.</p></article>
+        <article class="card"><h3>Discipline & Growth</h3><p>Believing in consistency, learning from experience and improving step by step.</p></article>
+      </div>
+    </section>
+
+    <footer>
+      <strong>Naisham Nasser</strong><br>
+      Personal website · Add your public social links and contact details here before publishing.
+    </footer>
+  </main>
+</body>
+</html>
